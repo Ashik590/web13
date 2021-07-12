@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="Css/style.css" />
+    <link rel="stylesheet" href="Css/phone.css" />
+    <title>A2Z Creatives & IT</title>
+  </head>
+  <body>
+    <header>
+      <nav class="container-fluid py-3">
+        <a href="#"><img src="Images/logo.png" alt="Logo" /></a>
+        <ul class="mb-0 ps-0">
+          <li><a class="_active" href="#">HOME</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#team">TEAM</a></li>
+          <li><a href="#service">SERVICES</a></li>
+          <li><a href="#work">WORK</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+        <img
+          data-bs-toggle="collapse"
+          data-bs-target="#menu"
+          src="svgs/menubar.svg"
+          alt="Menubar"
+        />
+      </nav>
+      <div class="menu collapse" id="menu">
+        <div>
+          <ul class="list-group">
+            <li><a class="active list-group-item" href="#">HOME</a></li>
+            <li><a class="list-group-item" href="#about">ABOUT</a></li>
+            <li><a class="list-group-item" href="#team">TEAM</a></li>
+            <li><a class="list-group-item" href="#service">SERVICES</a></li>
+            <li><a class="list-group-item" href="#work">WORK</a></li>
+            <li><a class="list-group-item" href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <section id="hero">
+      <div
+        id="myCarousel"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+        data-bs-pause="false"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="4000">
+            <img src="Images/bg1.jpg" class="d-block" alt="Hero_Img" />
+          </div>
+          <div class="carousel-item" data-bs-interval="4000">
+            <img src="Images/bg2.jpg" class="d-block" alt="Hero_Img" />
+          </div>
+          <div class="carousel-item" data-bs-interval="4000">
+            <img src="Images/bg3.jpg" class="d-block" alt="Hero_Img" />
+          </div>
+        </div>
+      </div>
+      <div class="cap">
+        <div class="cap_item">
+          <h1 class="h_1 text-center">
+            We are <span>A2Z</span> Creatives & IT
+          </h1>
+          <h1 class="h_2 up text-center">BRON INTO <span>CREATIVITY</span></h1>
+          <h1 class="h_3 up text-center">FOCUSED ON <span>STATEGY</span></h1>
+        </div>
+        <p class="text-center">- Specialized in brand experience -</p>
+        <div class="media">
+          <a class="ho_ef" href="#"
+            ><svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12 0C5.374 0 0 5.373 0 12C0 17.302 3.438 21.8 8.207 23.387C8.806 23.498 9 23.126 9 22.81V20.576C5.662 21.302 4.967 19.16 4.967 19.16C4.421 17.773 3.634 17.404 3.634 17.404C2.545 16.659 3.717 16.675 3.717 16.675C4.922 16.759 5.556 17.912 5.556 17.912C6.626 19.746 8.363 19.216 9.048 18.909C9.155 18.134 9.466 17.604 9.81 17.305C7.145 17 4.343 15.971 4.343 11.374C4.343 10.063 4.812 8.993 5.579 8.153C5.455 7.85 5.044 6.629 5.696 4.977C5.696 4.977 6.704 4.655 8.997 6.207C9.954 5.941 10.98 5.808 12 5.803C13.02 5.808 14.047 5.941 15.006 6.207C17.297 4.655 18.303 4.977 18.303 4.977C18.956 6.63 18.545 7.851 18.421 8.153C19.191 8.993 19.656 10.064 19.656 11.374C19.656 15.983 16.849 16.998 14.177 17.295C14.607 17.667 15 18.397 15 19.517V22.81C15 23.129 15.192 23.504 15.801 23.386C20.566 21.797 24 17.3 24 12C24 5.373 18.627 0 12 0Z"
+                fill="white"
+              />
+            </svg>
+            <span class="block"></span><span class="block"></span
+            ><span class="block"></span><span class="block"></span>
+          </a>
+          <a class="ho_ef" href="#"
+            ><svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-path="url(#clip0)">
+                <path
+                  d="M24 4.557C23.117 4.949 22.168 5.213 21.172 5.332C22.189 4.723 22.97 3.758 23.337 2.608C22.386 3.172 21.332 3.582 20.21 3.803C19.313 2.846 18.032 2.248 16.616 2.248C13.437 2.248 11.101 5.214 11.819 8.293C7.728 8.088 4.1 6.128 1.671 3.149C0.381 5.362 1.002 8.257 3.194 9.723C2.388 9.697 1.628 9.476 0.965 9.107C0.911 11.388 2.546 13.522 4.914 13.997C4.221 14.185 3.462 14.229 2.69 14.081C3.316 16.037 5.134 17.46 7.29 17.5C5.22 19.123 2.612 19.848 0 19.54C2.179 20.937 4.768 21.752 7.548 21.752C16.69 21.752 21.855 14.031 21.543 7.106C22.505 6.411 23.34 5.544 24 4.557V4.557Z"
+                  fill="white"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0">
+                  <rect width="24" height="24" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+            <span class="block"></span><span class="block"></span
+            ><span class="block"></span><span class="block"></span>
+          </a>
+          <a class="ho_ef" href="#"
+            ><svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M4.98 3.5C4.98 4.881 3.87 6 2.5 6C1.13 6 0.02 4.881 0.02 3.5C0.02 2.12 1.13 1 2.5 1C3.87 1 4.98 2.12 4.98 3.5ZM5 8H0V24H5V8ZM12.982 8H8.014V24H12.983V15.601C12.983 10.931 19.012 10.549 19.012 15.601V24H24V13.869C24 5.989 15.078 6.276 12.982 10.155V8Z"
+                fill="white"
+              />
+            </svg>
+            <span class="block"></span><span class="block"></span
+            ><span class="block"></span><span class="block"></span>
+          </a>
+          <a class="ho_ef" href="#"
+            ><svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M9 8H6V12H9V24H14V12H17.642L18 8H14V6.333C14 5.378 14.192 5 15.115 5H18V0H14.192C10.596 0 9 1.583 9 4.615V8Z"
+                fill="white"
+              />
+            </svg>
+            <span class="block"></span><span class="block"></span
+            ><span class="block"></span><span class="block"></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div>
+        <div class="about_top _top">
+          <h1 class="text-center ch1">ABOUT US</h1>
+          <p class="text-center">
+            WE'RE A CLOSE TEAM OF CREATIVES, DESIGNER & DEVELOPERS WHO WORK
+            TOGETHER TO CREATE BEAUTIFUL, ENGAGING DIGITAL EXPERIENCE.
+          </p>
+        </div>
+        <div class="about_skill container">
+          <div class="skill_item">
+            <h3 class="mb-4">ABOUT US</h3>
+            <p>
+              We’re a close team of creatives, designers & developers who work
+              together to create beautiful, engaging digital experiences. Cum
+              sociis natoque penatibus et magnis dis parturient montes, nascetur
+              ridiculus mus.Praesent commodo arcu massa. Natoque penatibus et
+              magnis dis parturient montes. At vero eos et accusamus et iusto
+              odio dignissimos ducimus qui. Sed ut perspiciatis unde omnis iste
+              natus error.
+            </p>
+          </div>
+          <div class="skill_item">
+            <div class="prog_parent mb-3">
+              <span>HTML</span>
+              <div
+                class="progress"
+                data-bs-toggle="tooltip"
+                data-bs-placement="top"
+                title="80%"
+              >
+                <div
+                  class="progress-bar cw-80"
+                  role="progressbar"
+                  aria-valuenow="75"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <div class="prog_parent mb-3">
+              <span>CSS</span>
+              <div
+                class="progress"
+                data-bs-toggle="tooltip"
+                data-bs-placement="top"
+                title="90%"
+              >
+                <div
+                  class="progress-bar cw-90"
+                  role="progressbar"
+                  aria-valuenow="75"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <div class="prog_parent mb-3">
+              <span>JQUERY</span>
+              <div
+                class="progress"
+                data-bs-toggle="tooltip"
+                data-bs-placement="top"
+                title="95%"
+              >
+                <div
+                  class="progress-bar cw-95"
+                  role="progressbar"
+                  aria-valuenow="75"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <div class="prog_parent">
+              <span>WORDPRESS</span>
+              <div
+                class="progress"
+                data-bs-toggle="tooltip"
+                data-bs-placement="top"
+                title="75%"
+              >
+                <div
+                  class="progress-bar cw-75"
+                  role="progressbar"
+                  aria-valuenow="75"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about_work container">
+          <div class="about_work_item">
+            <img src="images/about-work.png" alt="About" />
+          </div>
+          <div class="about_work_item">
+            <h3>LAST WORK</h3>
+            <p class="p1">
+              WE’RE A CLOSE TEAM OF CREATIVES, DESIGNERS & DEVELOPERS WHO WORK
+              TOGETHER TO CREATE BEAUTIFUL, ENGAGING DIGITAL EXPERIENCES.
+            </p>
+            <p class="mb-0">
+              Cum sociis natoque penatibus et magnis dis parturient montes,
+              nascetur ridiculus mus.Praesent commodo arcu massa. Natoque
+              penatibus et magnis dis parturient montes.
+            </p>
+          </div>
+        </div>
+        <div class="about_do">
+          <div class="container">
+            <div class="about_do_item">
+              <h3>WHAT WE DO</h3>
+              <p class="mb-0">
+                Cum sociis natoque penatibus et magnis dis parturient montes,
+                nascetur ridiculus mus.Praesent commodo arcu massa. Natoque
+                penatibus et magnis dis parturient
+              </p>
+            </div>
+            <div class="about_do_item">
+              <h3>WHAT WE ACHIEVE</h3>
+              <p class="mb-0">
+                Cum sociis natoque penatibus et magnis dis parturient montes,
+                nascetur ridiculus mus.Praesent commodo arcu massa. Natoque
+                penatibus et magnis dis parturient
+              </p>
+            </div>
+            <div class="about_do_item">
+              <h3>AT THE END</h3>
+              <p class="mb-0">
+                Cum sociis natoque penatibus et magnis dis parturient montes,
+                nascetur ridiculus mus.Praesent commodo arcu massa. Natoque
+                penatibus et magnis dis parturient
+              </p>
+            </div>
+          </div>
+        </div>
+        <footer>Copyright © www.a2zcreatives.com</footer>
+      </div>
+    </section>
+
+    <section id="team">
+      <div>
+        <div class="team_top _top">
+          <h1 class="text-center ch1">OUR TEAM</h1>
+          <p class="text-center">
+            WE’RE A SMALL, FRIENDLY AND TALENTED TEAM. WE CRAFT BEAUTIFUL
+            DIGITAL SOLUTIONS FOR AWESOME CLIENTS ACROSS ALL THE PLATFORMS.
+          </p>
+        </div>
+        <div class="team_item container">
+          <div class="member mem1">
+            <img src="svgs/member.svg" alt="Love" />
+            <div class="d-flex mb-2">
+              <div>
+                <h4>JAMES BEAN</h4>
+                <span class="d-block">Art Director</span>
+              </div>
+              <img src="Images/team1.jpg" alt="Member1" class="d-block" />
+            </div>
+            <p>
+              At vero eos et accusamus et iusto odio dignissimos ducimus qui.
+              Sed ut perspiciatis unde omnis iste natus error. Nam libero
+              tempore, cum soluta nobis est eligendi optio cumque nihil.
+            </p>
+            <div class="media">
+              <a class="ho_ef" href="#">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <img src="svgs/twitter-real.svg" alt="Twitter" />
+              </a>
+              <a class="ho_ef" href="#">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <img src="svgs/github-real.svg" alt="Github" />
+              </a>
+              <a class="ho_ef" href="#">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <img src="svgs/linkedin-real.svg" alt="Linkedin" />
+              </a>
+              <a class="ho_ef" href="#">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <img src="svgs/instagram-real.svg" alt="Instagram" />
+              </a>
+            </div>
+          </div>
+          <div class="member mem2">
+            <img src="svgs/mem2.svg" alt="Love" />
+            <div class="d-flex mb-2">
+              <div>
+                <h4 class="text-end">ISABELLA MORO</h4>
+                <span class="text-end d-block">Graphics Desinger</span>
+              </div>
+              <img src="Images/team3.jpg" alt="Member1" class="d-block" />
+            </div>
+            <p>
+              At vero eos et accusamus et iusto odio dignissimos ducimus qui.
+              Sed ut perspiciatis unde omnis iste natus error. Nam libero
+              tempore, cum soluta nobis est eligendi optio cumque nihil.
+            </p>
+            <div class="media">
+              <a class="ho_ef" href="#">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <img src="svgs/twitter-real.svg" alt="Twitter" />
+              </a>
+              <a class="ho_ef" href="#">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <img src="svgs/github-real.svg" alt="Github" />
+              </a>
+              <a class="ho_ef" href="#">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <img src="svgs/linkedin-real.svg" alt="Linkedin" />
+              </a>
+              <a class="ho_ef" href="#">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <img src="svgs/instagram-real.svg" alt="Instagram" />
+              </a>
+            </div>
+          </div>
+          <div class="member mem1">
+            <img src="svgs/member.svg" alt="Love" />
+            <div class="d-flex mb-2">
+              <div>
+                <h4>DAVID IVE</h4>
+                <span class="d-block">Web Developer</span>
+              </div>
+              <img src="Images/team1.jpg" alt="Member1" class="d-block" />
+            </div>
+            <p>
+              At vero eos et accusamus et iusto odio dignissimos ducimus qui.
+              Sed ut perspiciatis unde omnis iste natus error. Nam libero
+              tempore, cum soluta nobis est eligendi optio cumque nihil.
+            </p>
+            <div class="media">
+              <a class="ho_ef" href="#">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <img src="svgs/twitter-real.svg" alt="Twitter" />
+              </a>
+              <a class="ho_ef" href="#">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <img src="svgs/github-real.svg" alt="Github" />
+              </a>
+              <a class="ho_ef" href="#">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <img src="svgs/linkedin-real.svg" alt="Linkedin" />
+              </a>
+              <a class="ho_ef" href="#">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <img src="svgs/instagram-real.svg" alt="Instagram" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <footer>Copyright © www.a2zcreatives.com</footer>
+      </div>
+    </section>
+
+    <section id="service">
+      <div>
+        <div class="ser_top _top">
+          <h1 class="ch1 text-center">OUR SERVICES</h1>
+          <p class="text-center">
+            JUST CHECK OUT ALL OF THE SERVICE LISTS BELOW TO GET A GENERAL IDEA
+            OF WHAT WE ARE CAPABLE OF DELIVERING.
+          </p>
+        </div>
+        <div class="ser_item container">
+          <div class="ser_item_item">
+            <h3>GRAPHICS DESIGN</h3>
+            <img src="svgs/graphic.svg" alt="Graphics" />
+            <p>
+              Curabitur justo urna, congue quis volutpat sed. At vero eos et
+              accusamus et iusto
+            </p>
+            <ul>
+              <li>
+                <img src="svgs/check.svg" alt="checkbox" />
+                <span>Brand Design</span>
+              </li>
+              <li>
+                <img src="svgs/check.svg" alt="checkbox" />
+                <span>User Interface</span>
+              </li>
+              <li>
+                <img src="svgs/check.svg" alt="checkbox" />
+                <span>Illustration</span>
+              </li>
+              <li>
+                <img src="svgs/check.svg" alt="checkbox" />
+                <span>Social Media</span>
+              </li>
+              <li>
+                <img src="svgs/check.svg" alt="checkbox" />
+                <span>Digital Installations</span>
+              </li>
+            </ul>
+          </div>
+          <div class="ser_item_item">
+            <h3>WEB DESIGN</h3>
+            <img src="svgs/web.svg" alt="Web" />
+            <p>
+              Curabitur justo urna, congue quis volutpat sed. At vero eos et
+              accusamus et iusto
+            </p>
+            <ul>
+              <li>
+                <img src="svgs/check.svg" alt="checkbox" />
+                <span>Brand Design</span>
+              </li>
+              <li>
+                <img src="svgs/check.svg" alt="checkbox" />
+                <span>User Interface</span>
+              </li>
+              <li>
+                <img src="svgs/check.svg" alt="checkbox" />
+                <span>Illustration</span>
+              </li>
+              <li>
+                <img src="svgs/check.svg" alt="checkbox" />
+                <span>Social Media</span>
+              </li>
+              <li>
+                <img src="svgs/check.svg" alt="checkbox" />
+                <span>Digital Installations</span>
+              </li>
+            </ul>
+          </div>
+          <div class="ser_item_item">
+            <h3>SEO</h3>
+            <img src="svgs/seo.svg" alt="seo" />
+            <p>
+              Curabitur justo urna, congue quis volutpat sed. At vero eos et
+              accusamus et iusto
+            </p>
+            <ul>
+              <li>
+                <img src="svgs/check.svg" alt="checkbox" />
+                <span>Brand Design</span>
+              </li>
+              <li>
+                <img src="svgs/check.svg" alt="checkbox" />
+                <span>User Interface</span>
+              </li>
+              <li>
+                <img src="svgs/check.svg" alt="checkbox" />
+                <span>Illustration</span>
+              </li>
+              <li>
+                <img src="svgs/check.svg" alt="checkbox" />
+                <span>Social Media</span>
+              </li>
+              <li>
+                <img src="svgs/check.svg" alt="checkbox" />
+                <span>Digital Installations</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <footer>Copyright © www.a2zcreatives.com</footer>
+      </div>
+    </section>
+
+    <section id="work">
+      <div>
+        <div class="work_top _top">
+          <h1 class="text-center ch1">PORTFOLIO</h1>
+          <p class="text-center">
+            WE BELIEVE OUR WORK SPEAKS FOR ITSELF. BROWSE OUR MOST RECENT
+            PROJECTS BELOW.
+          </p>
+        </div>
+        <div class="container works">
+          <div class="control mb-4">
+            <button data-filter="all" class="filter btns m-1">SHOW ALL</button>
+            <button data-filter="illustration" class="filter btns m-1">
+              ILLUSTRATION
+            </button>
+            <button data-filter="graphics" class="filter btns m-1">
+              MOTION GRAPHICS
+            </button>
+            <button data-filter="photo" class="filter btns m-1">
+              PHOTOGRAPHY
+            </button>
+            <button data-filter="web" class="filter btns m-1">
+              WEB DESIGN
+            </button>
+          </div>
+          <div class="works_item">
+            <div class="img mix web">
+              <img src="images/port1.jpg" alt="Work" class="d-block" />
+              <div class="link">
+                <a href="#"></a>
+                <h4>WEB DESIGN</h4>
+              </div>
+            </div>
+            <div class="img mix photo">
+              <img src="images/port2.jpg" alt="Work" class="d-block" />
+              <div class="link">
+                <a href="#"></a>
+                <h4>PHOTO DESIGN</h4>
+              </div>
+            </div>
+            <div class="img mix graphics">
+              <img src="images/port3.jpg" alt="Work" class="d-block" />
+              <div class="link">
+                <a href="#"></a>
+                <h4>GRAPHICS DESIGN</h4>
+              </div>
+            </div>
+            <div class="img mix illustration">
+              <img src="images/port4.jpg" alt="Work" class="d-block" />
+              <div class="link">
+                <a href="#"></a>
+                <h4>ILLUSTRATION</h4>
+              </div>
+            </div>
+            <div class="img mix photo">
+              <img src="images/port5.jpg" alt="Work" class="d-block" />
+              <div class="link">
+                <a href="#"></a>
+                <h4>PHOTOGRAPHY</h4>
+              </div>
+            </div>
+            <div class="img mix web">
+              <img src="images/port6.jpg" alt="Work" class="d-block" />
+              <div class="link">
+                <a href="#"></a>
+                <h4>WEB DESIGN</h4>
+              </div>
+            </div>
+            <div class="img mix graphics">
+              <img src="images/port7.jpg" alt="Work" class="d-block" />
+              <div class="link">
+                <a href="#"></a>
+                <h4>MOTION DESIGN</h4>
+              </div>
+            </div>
+            <div class="img mix illustration">
+              <img src="images/port8.jpg" alt="Work" class="d-block" />
+              <div class="link">
+                <a href="#"></a>
+                <h4>ART DESIGN</h4>
+              </div>
+            </div>
+            <div class="img mix photo">
+              <img src="images/port9.jpg" alt="Work" class="d-block" />
+              <div class="link">
+                <a href="#"></a>
+                <h4>IMAGE DESIGN</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer>Copyright © www.a2zcreatives.com</footer>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div>
+        <div class="con_top _top">
+          <h1 class="text-center ch1">CONTACT US</h1>
+          <p class="text-center">
+            IF YOU HAVE A PROJECT YOU WOULD LIKE TO DISCUSS, GET IN TOUCH WITH
+            US.
+          </p>
+        </div>
+        <div class="con_item container">
+          <form>
+            <label for="name" class="label">Your Lovely Name: *</label>
+            <input type="text" class="d-block w-100" />
+            <label for="name" class="label">E-mail: *</label>
+            <input type="text" class="d-block w-100" />
+            <label for="name" class="label">Tell us Everything:</label>
+            <textarea rows="5" class="d-block w-100"></textarea>
+            <a class="btns" href="#">SEND</a>
+          </form>
+          <div class="info">
+            <h3>CONTACT INFO</h3>
+            <ul class="mb-0 ps-0">
+              <li>
+                <img src="svgs/location.svg" alt="Location" /><span
+                  >36000 Kraljevo, Nikole Tesle 41, Serbia</span
+                >
+              </li>
+              <li>
+                <img src="svgs/phone.svg" alt="Location" /><span
+                  >+381 648763982</span
+                >
+              </li>
+              <li>
+                <img src="svgs/email.svg" alt="Location" /><span
+                  >oceanthemes2014@gmail.com</span
+                >
+              </li>
+              <li>
+                <img src="svgs/con_earth.svg" alt="Location" /><span
+                  >themeforest.net</span
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <footer>Copyright © www.a2zcreatives.com</footer>
+      </div>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="Js/app.js"></script>
+    <script src="Js/jquery-3.6.0.min.js"></script>
+    <script src="Js/jquery.mixitup.min.js"></script>
+    <script>
+      var tooltipTriggerList = [].slice.call(
+        document.querySelectorAll('[data-bs-toggle="tooltip"]')
+      );
+      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl);
+      });
+
+      $(function () {
+        $(".works").mixitup();
+      });
+    </script>
+  </body>
+</html>
